@@ -13,18 +13,7 @@ This project provides **multi-modal object detection and segmentation** for vari
 ---
 
 ## **Installation**
-### **1. Clone the Repository**
-```bash
-git clone https://github.com/YourUsername/GroundSAM2.git
-cd GroundSAM2
-```
-
-### **2. Install Dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-### **3. Download Pretrained Model Weights**
+### **1. Download Pretrained Model Weights**
 The project requires **five** pretrained models, which need to be downloaded separately.
 
 #### **Segment Anything Model 2 (SAM2)**
@@ -91,27 +80,12 @@ video_predictor, image_predictor, processor, grounding_model, yolo_model, device
 ---
 
 ## **How to Run the Project**
-### **1. Video Object Detection**
-To process a video and detect objects:
+
+To process a folder containing videos:
 ```bash
-python auto1.py --video_path /path/to/video.mp4
+python New.py
 ```
-This will generate:
-- **Segmented video frames**
-- **Object bounding boxes**
-- **Masks for detected objects**
-  
-### **2. Process a Single Image**
-```python
-from PIL import Image
-image = Image.open("/path/to/image.jpg").convert("RGB")
-foreground_objects, background_objects, background_prompt, detection_prompt = analyze_frame_with_qwen(qwen_model, "/path/to/image.jpg")
-```
-This extracts:
-- **Foreground Objects (e.g., cars, trucks, motorcycles)**
-- **Background Objects (e.g., trees, roads, sky)**
-- **Detection prompts for Grounding DINO & YOLO**
-- **Background filtering prompts for ClipSeg**
+
 
 ---
 
