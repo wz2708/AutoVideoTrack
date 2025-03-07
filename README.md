@@ -86,6 +86,7 @@ To process a folder containing videos:
 python Auto_video_track.py
 ```
 - Your data should be video format like .mp4，and be put under the test folder
+- We use the QWen-VL-7B in local_files, but we recommend you try QWen-VL-72B version if you can use the API online
 
 ---
 
