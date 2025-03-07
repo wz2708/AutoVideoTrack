@@ -83,9 +83,9 @@ video_predictor, image_predictor, processor, grounding_model, yolo_model, device
 
 To process a folder containing videos:
 ```bash
-python New.py
+python Auto_video_track.py
 ```
-
+- Your data should be video format like .mp4，and be put under the test folder
 
 ---
 
@@ -117,7 +117,7 @@ python New.py
 
 ---
 
-## **Example Pipeline Flow**
+## **Pipeline Flow**
 1️⃣ **Extract frames from the video**  
 2️⃣ **Use Qwen to classify objects as foreground/background**  
 3️⃣ **Apply ClipSeg to remove background noise**  
@@ -142,6 +142,3 @@ If you encounter issues:
 - [Qwen2.5-VL](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct)
 - [ClipSeg](https://github.com/timojl/clipseg/tree/master)
 
-
-
-这份 README **涵盖了所有的模型下载、安装、初始化和运行方法**，并且提供了**清晰的 pipeline 说明**，让用户可以快速理解并运行整个项目。🚀
