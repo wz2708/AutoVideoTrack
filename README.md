@@ -10,6 +10,7 @@ This is a multi-model-based **video object detection and segmentation** framewor
 - **ClipSeg** for background filtering
 
 This project provides **multi-modal object detection and segmentation** for various applications, including **autonomous driving, surveillance analysis, and video object tracking**.
+
 ![**showcase**](docs/showcase.png)  
 ---
 
