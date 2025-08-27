@@ -1,4 +1,5 @@
 # **AutoVideoDetectTrack: Multi-Model Video Object Detection and Segmentation**
+[**Paper**](docs/paper.pdf)  
 
 ## **Overview**
 This is a multi-model-based **video object detection and segmentation** framework that integrates five powerful models:
@@ -9,7 +10,7 @@ This is a multi-model-based **video object detection and segmentation** framewor
 - **ClipSeg** for background filtering
 
 This project provides **multi-modal object detection and segmentation** for various applications, including **autonomous driving, surveillance analysis, and video object tracking**.
-
+![**showcase**](docs/showcase.png)  
 ---
 
 ## **Installation**
